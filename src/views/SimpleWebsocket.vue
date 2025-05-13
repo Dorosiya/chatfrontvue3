@@ -20,6 +20,7 @@
                             label="메시지 입력"
                             @keyup.enter="sendMessage"
                         />
+                        
                         <v-btn color="primary" block @click="sendMessage">전송</v-btn>
                     </v-card-text>
                 </v-card>
